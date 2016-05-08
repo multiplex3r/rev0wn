@@ -14,7 +14,7 @@ required python libs: netaddr (pip install netaddr)
 if len(sys.argv) < 2:
     print "Usage: {} <domain name> <netblock cidr>".format(sys.argv[0])
     print "Example: ./rev0wn.py blahblah.com 192.168.0.0/24"
-    print "Description: rev0wn will look for the occurance of blahblah.comin the PTR records for hosts in netblock"
+    print "Description: rev0wn will look for the occurence of blahblah.com in the PTR records for hosts in the netblock parameter"
     sys.exit()
 
 class notify:
